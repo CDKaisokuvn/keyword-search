@@ -17,9 +17,11 @@ def get_api_overview(request):
             'base_url': '/api/keyword',
             'method': 'POST',
             'data': {
-                'key[]': 'list of keywords',
+                'api_key': 'Your API key, this field is required',
+                'kw[]': 'list of keywords, this field is required',
                 'country': 'string country, ex: us',
-                'api_key': 'Your API key'
+                'currency': 'usd, gdp,...',
+                'dataSource': 'gkp',
 
             }
 
