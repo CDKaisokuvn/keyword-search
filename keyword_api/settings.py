@@ -84,7 +84,7 @@ DATABASES = {
     }
 }
 
-
+ALLOWED_HOSTS = ['keyword-api-searching.herokuapp.com', '127.0.0.1']
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
