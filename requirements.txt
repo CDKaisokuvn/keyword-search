@@ -44,8 +44,7 @@ pywin32-ctypes==0.2.0
 regex==2020.11.13
 requests==2.25.1
 ruamel.yaml==0.16.12
-scikit-learn==0.24.1
-scipy==1.6.0
+
 SecretStorage==3.3.0
 selenium==3.141.0
 six==1.15.0
